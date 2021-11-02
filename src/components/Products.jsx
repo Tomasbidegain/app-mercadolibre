@@ -3,9 +3,6 @@ import { Link } from 'react-router-dom'
 
 const Products = ( {data} ) => {
 
-    
-
-    console.log(data)
 
     const price = data.prices.prices[0].amount;
     const title = data.title;

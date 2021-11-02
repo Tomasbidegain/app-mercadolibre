@@ -36,7 +36,6 @@ const InfoProducto = ( ) => {
         minimumFractionDigits: 0
       })
 
-    console.log(item);
     return ( 
         <>
             <div className="flex">
