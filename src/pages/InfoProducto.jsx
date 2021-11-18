@@ -50,7 +50,7 @@ const InfoProducto = ( ) => {
                             
                             <div className="details-info">
                                 <h2 className="details-info-title">{item.title}</h2>
-                                <h3 className="details-info-price">{formatter.format(item.original_price)}</h3>
+                                <h3 className="details-info-price">{formatter.format(item.price)}</h3>
                                 <button className="details-info-button">Comprar</button>
                             </div>       
                         </div>
