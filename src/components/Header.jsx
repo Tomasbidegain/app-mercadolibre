@@ -8,7 +8,7 @@ const Header = ( { setBusqueda } ) => {
     return ( 
         <div className="header">
             <nav className="nav">
-                <div className='logo' onSubmit={ () => setBusqueda('') }>
+                <div className='logo' onClick={ () => setBusqueda('') }>
                     <Link to="/"><img src={logoMl} alt="" /></Link>
                 </div>
                 <Search
